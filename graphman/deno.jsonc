@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "ci": "deno fmt --check && deno lint"
+  },
+  "fmt": {
+    "files": {
+      "exclude": ["out"]
+    }
+  }
+}
